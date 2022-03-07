@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Island+Moments&family=Oswald:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh !important;
+    font-family: 'Bebas Neue', cursive;
+    color: black;
+}
+
+/*Clases reutilizables*/
+ 
+.btn {
+    text-decoration: none;
+    background-color: #1a374de7;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 15px 50px;
+    border-radius: 20px;
+    display: inline-block;
+
+    align-self: center;
+}
+
+/* Cerrar clases reutilizables */
+
+/*Primera seccion */
+
+#primera-seccion {
+    background: linear-gradient(to right, #4286f452, #373b4452), url(images/img_seccion-uno.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
+
+#barra-navegacion {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 100px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+#logo {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-stretch: wider;
+    font-size: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+ 
+nav a:hover {
+    color: #1A374D;
+    background-color: rgba(255, 255, 255, 0.459);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#primera-seccion-contenido {
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#primera-seccion-contenido p{
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#primera-seccion-contenido hr {
+    width: 100px;
+    align-self: center;
+    border-color: #1A374D;
+}
+
+#primera-seccion-contenido h1 {
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Segunda seccion */
+#segunda-seccion {
+    background-color: #1A374D;
+    min-height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.frase {
+    font-size: 20px;
+}
+
+
+/* Tercera seccion */
+#tercera-seccion {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 60px 0;
+}
+
+#titulo {
+    margin-bottom: 30px;
+}
+
+#titulo h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#titulo hr {
+    width: 80px;
+    margin: auto;
+    border-color: #1A374D;
+}
+
+#tercera-seccion-container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.columna-img {
+    padding: 0 20px;
+    width: 50%;
+}
+
+.columna-img h6 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.columna-img p {
+    margin-bottom: 15px;
+}
+
+.columna-img img {
+    max-width: 100%;
+}
+
+/* cuarta seccion */
+
+#cuarta-seccion {
+    background: linear-gradient(to right, #4286f452, #373b4452), url(images/img_cuarta-seccion.jpg) no-repeat center/cover; 
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+#contenedor {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.mitad {
+    width: 50%;
+}
+
+#cuarta-seccion-2 h3 {
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#cuarta-seccion-2 hr {
+    width: 250px;
+    border-color: #1A374D;
+    margin-bottom: 30px;
+}
+
+#cuarta-seccion-2 p {
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+/* quinta seccion */
+
+#quinta-seccion {
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.galeria {
+    margin: 20px 40px;
+    box-shadow: 0 4px 8px 0 lightskyblue, 0 6px 20px 0  rgba(0,0,0,0.19);
+    float: left;
+    width: 350px;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+.galeria:hover {
+    transform: rotate(-3deg);
+}
+
+.pie {
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+    padding: 10px;
+}
+
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
